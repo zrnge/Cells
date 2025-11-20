@@ -17,7 +17,7 @@ This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter 
 
 ## Installation
 
-1.  **Clone the Repository:** (If applicable)
+1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/zrnge/Cells.git
     cd Cells
