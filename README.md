@@ -3,7 +3,7 @@
 
 This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter library and Openpyxl for robust Excel (xlsx) file handling.
 
-(https://github.com/zrnge/Cells/blob/main/Cells.png)
+![Cells](https://github.com/zrnge/Cells/blob/main/Cells.png)
 
 ## Key Features
 
