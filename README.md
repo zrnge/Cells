@@ -17,8 +17,8 @@ This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter 
 
 1.  **Clone the Repository:** (If applicable)
     ```bash
-    git clone [https://github.com/zrnge/your-repo-name](https://github.com/zrnge/your-repo-name)
-    cd your-repo-name
+    git clone https://github.com/zrnge/Cells.git
+    cd Cells
     ```
 
 2.  **Install Requirements:**
@@ -30,7 +30,7 @@ This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter 
 
 1.  **Run the application:**
     ```bash
-    python Excel-Viewer.py
+    python cells.py
     ```
 2.  **Open File (File > Open):** Select an `.xlsx` or `.csv` file.
 3.  **Sheet Selector:** Use the **Sheet:** dropdown in the icon bar to navigate sheets (for `.xlsx` files).
