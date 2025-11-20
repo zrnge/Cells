@@ -1,4 +1,4 @@
-# Cells
+# Cells - Documentation
 ## Overview
 
 This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter library and Openpyxl for robust Excel (xlsx) file handling.
@@ -38,5 +38,3 @@ This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter 
 5.  **Context Menu (Right-Click):** Access advanced features like copy, move, delete, and the smart paste options.
 
 ---
-
-### 2. `requirements.txt`
