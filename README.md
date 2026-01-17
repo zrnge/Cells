@@ -1,4 +1,6 @@
 # Cells
+![python version](https://img.shields.io/badge/Python-3.9%2B-blue)
+
 ![Requirements](https://img.shields.io/badge/openpyxl-Required-red)
 
 ## Overview
