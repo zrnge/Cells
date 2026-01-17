@@ -1,4 +1,6 @@
-# Cells - Documentation
+# Cells
+![Requirements](https://img.shields.io/badge/openpyxl-Required-red)
+
 ## Overview
 
 This is a powerful GUI-based Excel/CSV data editor built using Python's Tkinter library and Openpyxl for robust Excel (xlsx) file handling.
