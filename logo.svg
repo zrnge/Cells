@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none" width="100%" height="100%">
+  <!-- Definitions for Gradients, Shadows, and Fonts -->
+  <defs>
+    <!-- Accent Gradient: Blue to Emerald -->
+    <linearGradient id="cells-blue-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    
+    <!-- Purple Gradient: Purple to Blue -->
+    <linearGradient id="cells-purple-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <!-- Glow Gradient: Emerald to Purple -->
+    <linearGradient id="cells-emerald-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Typography Text Gradient -->
+    <linearGradient id="cells-text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <!-- Professional Glow Drop Shadow Filter -->
+    <filter id="cells-glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background container for dark-theme stand-alone visibility (optional, styled as transparent for general use) -->
+  <rect width="220" height="60" rx="16" fill="#0b0f19" fill-opacity="0.95" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" />
+
+  <!-- Logo Mark (Visual Icon representation of Spreadsheet Cells) -->
+  <g transform="translate(14, 6)">
+    <!-- Overlapping grid segments representing scalable data cells -->
+    <!-- Cell 1 (Top-Left): Base Accent Cell -->
+    <rect x="4" y="4" width="16" height="16" rx="5" fill="url(#cells-blue-emerald)" fill-opacity="0.85" />
+    <rect x="4.5" y="4.5" width="15" height="15" rx="4.5" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+    
+    <!-- Cell 2 (Top-Right): Offset Wide Cell -->
+    <rect x="24" y="4" width="20" height="16" rx="5" fill="url(#cells-purple-blue)" fill-opacity="0.9" />
+    <rect x="24.5" y="4.5" width="19" height="15" rx="4.5" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+    
+    <!-- Cell 3 (Bottom-Left): Tall Cell -->
+    <rect x="4" y="24" width="16" height="20" rx="5" fill="url(#cells-emerald-purple)" fill-opacity="0.9" />
+    <rect x="4.5" y="24.5" width="15" height="19" rx="4.5" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+    
+    <!-- Cell 4 (Bottom-Right): Primary Glowing Selection Cell -->
+    <rect x="24" y="24" width="20" height="20" rx="5" fill="url(#cells-blue-emerald)" fill-opacity="0.8" filter="url(#cells-glow-filter)" />
+    <rect x="24.5" y="24.5" width="19" height="19" rx="4.5" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+    
+    <!-- Intersecting Grid Overlay Lines for premium glassmorphic depth -->
+    <path d="M 22 2 L 22 46" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="2 2" />
+    <path d="M 2 22 L 46 22" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="2 2" />
+    
+    <!-- Active selection dots (represents formulas and active inputs) -->
+    <circle cx="12" cy="12" r="2.5" fill="#ffffff" />
+    <circle cx="34" cy="34" r="2.5" fill="#10b981" filter="url(#cells-glow-filter)" />
+    <circle cx="34" cy="34" r="1.5" fill="#ffffff" />
+  </g>
+
+  <!-- Typography / Brand Name Wordmark -->
+  <text x="72" y="36" fill="url(#cells-text-grad)" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-size="28px" font-weight="800" letter-spacing="-0.75px">Cells</text>
+  
+  <!-- Subtitle / Edition Badge -->
+  <rect x="146" y="21" width="30" height="16" rx="4" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+  <text x="161" y="32" fill="#10b981" font-family="'Outfit', 'Inter', sans-serif" font-size="9px" font-weight="700" letter-spacing="0.5px" text-anchor="middle">PRO</text>
+</svg>
